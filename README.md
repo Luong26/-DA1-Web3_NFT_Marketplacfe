@@ -6,11 +6,6 @@ Create a project using this example:
 npx thirdweb create --template next-javascript-starter
 ```
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-On `pages/_app.js`, you'll find our `ThirdwebProvider` wrapping your app, this is necessary for our [hooks](https://portal.thirdweb.com/react) and
-[UI Components](https://portal.thirdweb.com/ui-components) to work.
-
 ## Environment Variables
 
 To run this project, you will need to add environment variables. Check the `.env.example` file for all the environment variables required and add it to `.env.local` file or set them up on your hosting provider.
@@ -23,18 +18,31 @@ Deploy a copy of your application to IPFS using the following command:
 yarn deploy
 ```
 
-## Learn More
+## Run Locally
 
-To learn more about thirdweb and Next.js, take a look at the following resources:
+Install dependencies
 
-- [thirdweb React Documentation](https://docs.thirdweb.com/react) - learn about our React SDK.
-- [thirdweb JavaScript Documentation](https://docs.thirdweb.com/react) - learn about our JavaScript/TypeScript SDK.
-- [thirdweb Portal](https://docs.thirdweb.com/react) - check our guides and development resources.
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Templates](https://thirdweb.com/templates)
+```bash
+  # npm
+  npm install
 
-You can check out [the thirdweb GitHub organization](https://github.com/thirdweb-dev) - your feedback and contributions are welcome!
+  # yarn
+  yarn install
+```
 
-## Join our Discord!
+Start the server
 
-For any questions, suggestions, join our discord at [https://discord.gg/thirdweb](https://discord.gg/thirdweb).
+```bash
+  # npm
+  npm run dev
+
+  # yarn
+  yarn dev
+```
+
+## Additional Resources
+
+-   [Documentation](https://portal.thirdweb.com)
+-   [Templates](https://thirdweb.com/templates)
+-   [Video Tutorials](https://youtube.com/thirdweb_)
+-   [Blog](https://blog.thirdweb.com)
